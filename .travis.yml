@@ -11,4 +11,12 @@ env:
 script:
 
   - "curl -T coba.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/uas/"
+  - "curl -T edit.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/uas/"
+  - "curl -T hapus.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/uas/"
+  - "curl -T koneksi.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/uas/"
+  - "curl -T index.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/uas/"
+  - "curl -T simpan.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/uas/"
+  - "curl -T tambah.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/uas/"
+  - "curl -T update.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/uas/"
+
  
