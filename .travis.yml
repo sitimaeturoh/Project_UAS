@@ -9,6 +9,6 @@ env:
     - 'FTP_PASS=06april98'
 
 script:
-  - "curl -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com -Q 'mkd public_html/uas'"
+  - "curl -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com -Q 'mkdr public_html/uas'"
   - "curl -T coba.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/uas/"
  
